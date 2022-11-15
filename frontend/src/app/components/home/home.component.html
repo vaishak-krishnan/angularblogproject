@@ -1,0 +1,50 @@
+
+
+
+<div class="blog-post pt-5" *ngFor="let blog of blogs" >
+  <div class="container">
+      <div class="row featurette">
+        <div class="col-md-3 text-center">
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="../../../assets/blogers/bloger-1.jpg" alt="" >        </div>
+        <div class="col-md-9">
+          <h1 class="featurette-heading fw-normal lh-1 pt-3">{{blog.title}}</h1>
+          <h2 class="lead pt-1">{{blog.author}} <a class="btn btn-secondary btn-sm btn-follow" href="#">Follow</a></h2>          
+        </div>
+      </div>
+      <div class="blog-content text-justify">
+        <h5 class="pt-5 pb-5 ">{{blog.details}}</h5>
+
+      </div>
+      <hr>
+      <div class="coments pt-3">
+        <h3>coments</h3>
+        <p><em>{{blog.coments}}</em></p>
+      </div>
+      <p class="text-center pt-5"><a class="btn btn-secondary btn-sm btn-like" href="#">Like</a> <a class="btn btn-secondary btn-sm btn-share" href="#">Share</a></p>
+      <p></p>
+
+  </div>
+
+  
+
+</div>
+
+<!-- <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let blog of blogs">
+      <th scope="row">1</th>
+      <td>{{blog.title}}}</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+
+  </tbody>
+</table> -->

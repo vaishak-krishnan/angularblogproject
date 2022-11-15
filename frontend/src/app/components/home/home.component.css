@@ -1,0 +1,43 @@
+.btn-follow{
+    background-color: white;
+    color: grey;
+    border: none;
+    width: 90px;
+}
+.btn-follow:hover{
+    background-color: green;
+    color: white;
+    border: none;
+
+}
+
+.btn-like{
+    background-color: cornflowerblue;
+    margin-right: 50px;
+    border: none;
+    width: 90px;
+
+
+}
+
+.btn-like:hover{
+    background-color: blueviolet;
+    border: none;
+
+}
+
+.btn-share{
+    background-color: darkcyan;
+    margin-right: 50px;
+    border: none;
+    width: 90px;
+
+
+
+}
+
+.btn-share:hover{
+    background-color: brown;
+    border: none;
+
+}
